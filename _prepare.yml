@@ -1,0 +1,18 @@
+prep:
+  - _reset.sh
+  - start node rest
+  - delete facebook app permissions (Demo | https://www.facebook.com/settings?tab=applications)
+  - open fb notes (just in case)
+  - open tabs
+
+
+tabs:
+  ci:
+    - https://github.com/nquinlan/development-practices-presentation-helper/tree/later
+    - https://travis-ci.org/nquinlan/development-practices-presentation-helper/branches
+  oauth:
+    - https://developers.facebook.com/x/apps/520709218044272/dashboard/
+    - localhost
+    - postman (GET FB)
+  supaboy:
+    - http://youtu.be/k5BlQ9XS6Bg?t=3m33s
